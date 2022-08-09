@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./clock.css" />
+    <title>Vizitka</title>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="header">
+          <div class="header-main">
+            <p>
+              <a href="index.html">Main</a>
+            </p>
+          </div>
+          <div class="header-about">
+            <p>
+              <a href="">About</a>
+            </p>
+          </div>
+          <div class="header-contact">
+            <p>
+              <a href="">Contact</a>
+            </p>
+          </div>
+        </div>
+      </header>
+      <form class="content">
+        <div class="content-img">
+          <span>Foto</span>
+          <img
+            src="/1B5ECA10-0F4A-4559-9F4C-8AE024E307C2_1_105_c.jpeg"
+            alt="my foto"
+          />
+        </div>
+
+        <div class="content-text">
+          <span>Biografy</span>
+          <h2 id="block2">
+            <textarea id="myInput" autofocus></textarea>
+          </h2>
+        </div>
+        <div class="content-skills">
+          <span>SKILLS</span>
+          <ul id="skills-content">
+            <li>JavaScript</li>
+            <li>Node js</li>
+            <li>React</li>
+            <li>Jest</li>
+            <li>CSS</li>
+            <li>Html</li>
+            <li>Redux</li>
+            <li>Express</li>
+            <li>Postgres</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="social">
+          <span>Links</span>
+          <a href="" class="social_item social_github"
+            ><img src="./loon-icon (4).svg" alt="git"
+          /></a>
+          <a href="" class="social_item social_telegram"
+            ><img src="./loon-icon (1).svg" alt="telegram"
+          /></a>
+          <a href="" class="social_item social_google"
+            ><img src="./loon-icon (3).svg" alt="google"
+          /></a>
+          <a href="" class="social_item social_whatsapp"
+            ><img src="./loon-icon (2).svg" alt="whatsapp"
+          /></a>
+        </div>
+      </form>
+      <form id="clock-form">
+        <div id="test">Loading</div>
+        <div id="hms"></div>
+      </form>
+    </div>
+
+    <script src="/index.js"></script>
+
+    <script src="/text.js"></script>
+  </body>
+</html>

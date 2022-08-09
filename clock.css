@@ -1,0 +1,22 @@
+#test {
+  text-align: center;
+  font-family: serif;
+  color: blanchedalmond;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  padding: 3px;
+}
+
+#hms {
+  color: blanchedalmond;
+
+  text-align: center;
+  padding: 3px;
+  font-family: serif;
+}
+#clock-form {
+  padding: 3px;
+  font-family: serif;
+  margin-top: 8vw;
+  font-weight: bold;
+}
